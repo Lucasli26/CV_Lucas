@@ -1,0 +1,79 @@
+/* -Pantallas Medias- */
+@media (max-width: 1111px){
+    #t1::before{
+        content: "Centro De Educacion Infantil\ATirso De Molina\APracticas de Grado Medio\A como tecnico informático";
+        white-space: pre;
+    
+    }
+
+    /* -Pantallas de moviles- */
+@media (max-width: 975px) {
+    /* -Header Movil- */
+    #CNombre h1{
+        font-size: 30px;
+    }
+    #FotoPerfil{
+        margin-top: 10px;
+        height: 4cm;
+        width: 4cm;
+    }
+    #HeaderP2 p{
+        font-size: 20px;
+    }
+    #PerInfo{
+        flex-direction: column;
+    }
+    #PerInfo a{
+        margin-top: 10px;
+    }
+    #PerInfo div{
+        margin-top: 10px;
+    }
+    #PerInfo img{
+        width: 35px;
+        height: 35px;
+        min-width: 30px;
+        min-height: 35px;
+    }
+    /* -Main Movil- */
+    main{
+        flex-direction: column;
+    }
+    aside{
+        width: 100%;
+        background-color: var(--colortexto);
+        border-radius: 10px 10px 0 0;
+        color: var(--colortexto2);
+        padding: 15px 0;
+    }
+    aside h2{
+        text-align: center;
+    }
+    article{
+        width: 100%;
+        color: var(--colortexto);
+        padding: 20px 0;
+        border-radius: 0 0 10px 10px;
+ 
+    }
+          
+    #t1::before{
+        content: "CEIP\ATirso De Molina\A FCT GM\ATecnico\A Informático.";
+        white-space: pre;
+    
+    }
+    #t2::before{
+        content: "Operario de\A Almacen\A Logifashion";
+        white-space: pre;
+    }
+    #t6::before{
+        content: "Permiso de\A Conduccion\A Clase B";
+        white-space: pre;
+    }
+    #t7::before{
+        content: "Buena base en\A los lenguajes mencionados,\A Capaz de trabajar\A tanto solo como en grupo.\A\A Mi fuerte seria el Front-End\A más centrado en HTML y CSS3\A mi mayor dificultad seria BBDD\A pero no descarto nada como opción";
+        white-space: pre;
+    }
+}
+
+}
