@@ -186,7 +186,9 @@ article p{
 #EXPbbdd .EXP{
     width: 65%;
 }
-
+EXPwordpress .EXP{
+    width: 50%;
+}
 #idio{
     margin: 15px;
     text-align: center;
