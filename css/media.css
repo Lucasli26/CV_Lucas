@@ -57,13 +57,17 @@
  
     }
           
-    #t1::before{
+    #tr1::before{
         content: "CEIP\ATirso De Molina\A FCT GM\ATecnico\A Informático.";
         white-space: pre;
     
     }
-    #t2::before{
+    #tr2::before{
         content: "Operario de\A Almacen\A Logifashion";
+        white-space: pre;
+    }
+    #tr3::before{
+        content: "Desarrollador\A Web\A Walkiria Apps";
         white-space: pre;
     }
     #t6::before{
