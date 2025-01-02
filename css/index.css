@@ -122,11 +122,11 @@ article p{
     font-weight: bold;
 }
 /*-Textos-*/
-#t1::before{
+#tr1::before{
     content: "- Centro De Educación Infantil -\ATirso De Molina\APracticas del grado medio como el\ATecnico Informático del centro para\A ayudar y reparar.";
     white-space: pre;
 }
-#t2::before{
+#tr2::before{
     content: "- Operario De Almacen -\A Logifashion\A Manipulacion de cajas\A de empresas de ropa en almacen.";
     white-space: pre;
 }
