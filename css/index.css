@@ -130,6 +130,10 @@ article p{
     content: "- Operario De Almacen -\A Logifashion\A Manipulacion de cajas\A de empresas de ropa en almacen.";
     white-space: pre;
 }
+#tr3::before{
+    content: "- Desarrollador Web -\A Walkiria Apps\A Desarrollando Webs\A Trabajando principalmente con PHP.";
+    white-space: pre;
+}
 #t3::before{
     content: "- Educación Secundaria -\A IES Maria Pacheco\AToledo\A";
     white-space: pre;
